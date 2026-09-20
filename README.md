@@ -21,7 +21,7 @@ Menu extra for macOS 14+. It lives on the **right** of the menu bar and does not
 - Search order per tool: Homebrew, `/usr/local`, Volta, asdf, `~/.local`, fnm default, process `PATH`, then login `zsh` `PATH`.
 - Runs `<tool> --version` with a 3 second timeout. Missing: **not found**.
 - Add project folders. Reads that folder’s `package.json` only (no walk).
-- Warns when `engines.node` (and npm/pnpm/bun/yarn) or `packageManager` majors differ.
+- Warns when `engines.node` (and npm/pnpm/bun/yarn) or `packageManager` majors differ. Patch and minor mismatches are ignored on purpose.
 - **Refresh** on appear and from the button. No timer.
 
 ## Requirements
